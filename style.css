@@ -1,0 +1,164 @@
+@font-face {
+  font-family: aditya;
+  src: url(new.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main{
+  background-color: #222;
+  overflow-x: hidden;
+}
+.page1 {
+  height: 110vh;
+  width: 100vw;
+  background-color: #c4bcb3;
+  position: relative;
+  overflow: hidden;
+}
+.nav {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  border-bottom: 1px solid #222;
+}
+
+.nav h5 {
+  font-size: 20px;
+  font-weight: 100;
+  width: 30%;
+}
+.nav img {
+  height: 29px;
+  width: 30%;
+}
+.nav i {
+  width: 30%;
+  text-align: right;
+}
+.elems {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+}
+.elem1 {
+  width: 30%;
+  height: 100%;
+}
+.elem1 h4 {
+  font-size: 20px;
+  margin: 10px 0;
+  font-family: canopee;
+}
+.elem1 h4 span {
+  background-color: orangered;
+  color: #c4bcb3;
+  font-weight: 100;
+  font-size: 20px;
+  padding: 4px;
+}
+.elem1 p {
+  font-size: 18px;
+  font-family: aditya;
+}
+.elem1 .image-div {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+}
+.elem3 .image-div {
+  height: 60%;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid black;
+}
+.image-div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 0.5s;
+}
+.elem2 {
+  width: 25%;
+  height: 100%;
+  border-right: 1px solid #222;
+  border-left: 1px solid #222;
+  padding: 20px 30px;
+  text-align: center;
+}
+.elem2 h2 {
+  font-size: 60px;
+  font-family: canopee;
+  font-weight: 100;
+}
+.elem2 h3 {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 100;
+}
+b{
+  font-family: canopee;
+  font-size: 20px;
+  font-weight: 100;
+}
+.elem2 h6 {
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 100;
+  font-family: aditya;
+}
+.elem3 {
+  width: 30%;
+  height: 100%;
+}
+.image-div:hover img {
+  scale: 1.2;
+}
+.elem3 h4 {
+  font-size: 20px;
+  margin: 10px 0;
+  font-family: canopee;
+}
+.elem3 h4 span {
+  background-color: orangered;
+  color: #c4bcb3;
+  font-weight: 100;
+  font-size: 20px;
+  padding: 4px;
+}
+.elem3 p {
+  font-size: 18px;
+  font-family: aditya;
+}
+.page1>h1{
+  text-align: center;
+font-family: canopee;
+background-color: black;
+color: #c4bcb3;
+font-size: 500px;
+margin: 0 20px;
+margin-bottom: 10px;
+padding:0 10px;
+font-weight: 200;
+line-height: 400px;
+letter-spacing: -5px;
+padding: 20px 10px;
+width: 96%;
+}
+.page2{
+  height: 100vh;
+  width: 100%;
+  background-color: #c4bcb3;
+}
